@@ -40,7 +40,7 @@ export default async function Home() {
 
       <div className="my-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
         {products.slice(1).map((products) =>(
-          <ProductCard product={products} key={products.id} />
+          <ProductCard Product={products} key={products.id} />
         ))}
       </div>
     </div>
